@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 
 namespace lab2
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -29,15 +30,14 @@ namespace lab2
 
                     Console.WriteLine("Please enter the amount you want");
                     Decimal amount = Convert.ToInt32(Console.ReadLine());
-                    Decimal withdrow=Withdraw(Balance(), amount);
-                        
+                    Withdraw(amount);
                     
                 }
                 else if (menu == "3")
                 {
                     Console.WriteLine("Please enter the amount you want to deposit");
                         Decimal amountDeposit = Convert.ToInt32(Console.ReadLine());
-                    Decimal deposit= Deposit(Balance(), amountDeposit);
+                        Deposit(amountDeposit);
                     
                 }
 
@@ -55,36 +55,41 @@ namespace lab2
             }
         }
 
+        static Decimal currentBalance = 5000.00m;
         public static Decimal Balance()
         {
             
             return currentBalance;
 
         }
-       public static Decimal Withdraw(Decimal balance,Decimal amount)
+       public static Decimal Withdraw(Decimal amount)
         {
-            Decimal newBalance;
             
-            if(balance==0){
+            
+            if(currentBalance==0){
                 Console.WriteLine("You don't have enghout Balance");
             }
-            if(amount>=balance){
+            if(amount>currentBalance){
                 Console.WriteLine("please enter another amount");
              
                 }
             else{
-                 newBalance = balance - amount;
+                 currentBalance = currentBalance - amount;
                 
             }
-           return newBalance ; 
+            return currentBalance; 
         }
 
-        public static Decimal Deposit(Decimal balance, Decimal amount)
+        public static Decimal Deposit(Decimal amount)
         {
+            if (amount < 0)
+            {
+                Console.WriteLine("please enter another amount");
+            }
+            else
+            currentBalance = currentBalance+ amount;
 
-            Decimal deposit = balance + amount;
-
-            return deposit;
+            return currentBalance;
         }
 
 
