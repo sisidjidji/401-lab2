@@ -1,0 +1,13 @@
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\bin\Debug\netcoreapp3.1\lab2.exe
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\bin\Debug\netcoreapp3.1\lab2.deps.json
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\bin\Debug\netcoreapp3.1\lab2.runtimeconfig.json
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\bin\Debug\netcoreapp3.1\lab2.runtimeconfig.dev.json
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\bin\Debug\netcoreapp3.1\lab2.dll
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\bin\Debug\netcoreapp3.1\lab2.pdb
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\obj\Debug\netcoreapp3.1\lab2.csprojAssemblyReference.cache
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\obj\Debug\netcoreapp3.1\lab2.csproj.CoreCompileInputs.cache
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\obj\Debug\netcoreapp3.1\lab2.AssemblyInfoInputs.cache
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\obj\Debug\netcoreapp3.1\lab2.AssemblyInfo.cs
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\obj\Debug\netcoreapp3.1\lab2.dll
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\obj\Debug\netcoreapp3.1\lab2.pdb
+C:\Users\sazib\Source\Repos\sisidjidji\401-lab2\lab2\obj\Debug\netcoreapp3.1\lab2.genruntimeconfig.cache
