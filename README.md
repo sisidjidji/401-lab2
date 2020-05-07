@@ -14,7 +14,7 @@ Keep asking the user to choose a transaction until they choose to ‘exit’ the app
 Exception Handling. Implement try, catch, finally and a throw within your program.
 A few things to keep in mind:
 Make sure the user can’t go below a zero balance.
-You cannot unit test console WriteLine or Readlines.
+You cannot unit test console WriteLine or Readlines
 Make sure your methods are just returning values and not reading input from the console.
 When running your application, it should activate the user interface without any direct code manipulation.
 
